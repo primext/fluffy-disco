@@ -1,6 +1,6 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
+    margin: 20px;
     background-color: #f4f4f4;
 }
 
@@ -41,4 +41,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+img {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px;
 }
