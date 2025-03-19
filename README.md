@@ -58,6 +58,7 @@ This project is a web-based **Image Resizer Tool** that allows users to upload a
    git clone https://github.com/your-username/your-repository-name.git
    
 2. Navigate to the project directory:
+   ```bash
    cd your-repository-name
 
 3. Open the index.html file in your browser to launch the app.
@@ -77,14 +78,17 @@ Contributions are welcome! If you'd like to contribute to this project:
 1. Fork the repository.
 
 2. Create a new branch for your feature or bug fix:
+   ```bash
    git checkout -b feature-name
 
 3. Commit your changes:
+   ```bash
    git commit -m "Description of changes"
 
 4. Push to your branch:
+   ```bash
    git push origin feature-name
-   
+
 5. Open a pull request.
 
 ## License
