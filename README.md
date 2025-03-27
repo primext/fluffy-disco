@@ -45,11 +45,11 @@ This project is a web-based **Image Resizer Tool** that allows users to upload a
 ## **How to Run the Project**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/primext/fluffy-disco.git
    
 2. Navigate to the project directory:
    ```bash
-   cd your-repository-name
+   cd fluffy-disco
 
 3. Open the index.html file in your browser to launch the app.
 
