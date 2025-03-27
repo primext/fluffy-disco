@@ -3,20 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Resizer</title>
+    <title>Image Resizer Tool</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <main>
-        <p>This is a simple website project to practice using HTML, CSS, and JavaScript.</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Website</p>
-    </footer>
-    <script src="scripts/imageUtils.js"></script>
-    <script src="scripts/app.js"></script>
+    <div id="app-container">
+        <!-- Header Section -->
+        <header>
+            <h1>Image Resizer Tool</h1>
+            <p>Resize your images to a specific file size while maintaining quality and format.</p>
+        </header>
+
+        <!-- Upload Section -->
+        <section id="upload-section">
+            <h2>Upload</h2>
+            <div id="drag-drop-area">
+                <p>Drag and drop your image here, or</p>
+                <label for="image-upload" class="upload-button">Choose File</label>
+                <input type="file" id="image-upload" accept="image/*">
+            </div>
+        </section>
+
+        <!-- Resize Section -->
+        <section id="resize-section">
+            <h2>Resize</h2>
+            <input type="number" id="size-threshold" placeholder="Enter size in KB or MB">
+            <select id="size-unit">
+                <option value="KB">KB</option>
+                <option value="MB">MB</option>
+            </select>
+            <button id="resize-button">Resize Image</button>
+            <p id="processing-status"></p> <!-- Status message element -->
+        </section>
+
+        <!-- Preview Section -->
+        <section id="preview-section">
+            <h2>Preview</h2>
+            <img id="original-image-preview" alt="Original Image Preview">
+            <p id="original-image-size"></p> <!-- Added element to display original image size -->
+            <img id="resized-image-preview" alt="Resized Image Preview">
+            <p id="resized-image-size"></p>
+        </section>
+
+        <!-- Download Section -->
+        <section id="download-section">
+            <h2>Download</h2>
+            <button id="download-button" style="display: none;">Download Resized Image</button>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2025 Image Resizer Tool. <a href="https://github.com/primext/fluffy-disco">GitHub</a></p>
+        </footer>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script type="module" src="scripts/app.js"></script>
 </body>
 </html>
