@@ -1,23 +1,23 @@
 # Image Resizer Tool
 
-This project is a web-based **Image Resizer Tool** that allows users to upload an image, resize it to a desired file size, and download the resized image while maintaining the original file format. The tool is designed to provide feedback on the resizing process, including whether the aspect ratio was adjusted to meet the file size requirements.
+This project is a web-based **Image Resizer Tool** that allows users to upload an image, resize it to a desired file size, and download the resized image while maintaining the original file format. The tool provides real-time feedback on the resizing process directly on the webpage.
 
 ---
 
 ## **Features**
 - **Upload Images**: Users can upload images in common formats such as `.jpg`, `.jpeg`, `.png`, etc.
+- **Drag-and-Drop Support**: Users can drag and drop an image into the upload area for convenience.
 - **Set File Size Threshold**: Users can specify the desired file size in KB or MB.
 - **Maintain Original File Format**: The output image format matches the input image format (e.g., `.jpg` remains `.jpg`).
-- **Aspect Ratio Feedback**: The tool provides feedback if the aspect ratio was reduced to meet the file size requirements.
+- **Processing Status Updates**: The tool displays real-time status updates (e.g., "Processing your image...") directly on the webpage.
 - **Download Resized Image**: Users can download the resized image using a button.
-- **Processing Indicator**: A "Processing..." spinner is displayed while the image is being resized.
-- **Error Handling**: Alerts the user if the resizing process fails or if the resized image cannot meet the requested file size due to quality or aspect ratio limits.
+- **Error Handling**: The tool provides clear error messages if the resizing process fails or if the resized image cannot meet the requested file size due to quality or aspect ratio limits.
 
 ---
 
 ## **How It Works**
 1. **Upload an Image**:
-   - Click the "Choose File" button to upload an image.
+   - Click the "Choose File" button or drag and drop an image into the upload area.
    - The uploaded image is displayed in the preview area along with its file size.
 
 2. **Set File Size Threshold**:
@@ -27,28 +27,18 @@ This project is a web-based **Image Resizer Tool** that allows users to upload a
 3. **Resize the Image**:
    - Click the "Resize Image" button to start the resizing process.
    - The tool adjusts the image quality and dimensions to meet the specified file size.
+   - Real-time status updates are displayed on the webpage (e.g., "Processing your image..." or "Image processing is complete!").
 
 4. **Download the Resized Image**:
    - Once the resizing is complete, click the "Download Resized Image" button to save the resized image.
 
 ---
 
-## **Latest Updates**
-- **Output File Format**:
-  - The output image format now matches the input file format exactly (e.g., `.jpg` remains `.jpg`).
-- **Improved Download Functionality**:
-  - The "Download Resized Image" option has been changed from a hyperlink to a button for better user experience.
-- **Aspect Ratio Feedback**:
-  - The tool provides feedback if the aspect ratio was reduced to meet the file size requirements.
-- **Processing Indicator**:
-  - A spinner is displayed while the image is being processed, and it disappears once the process is complete.
-
----
-
 ## **Technologies Used**
-- **HTML5**: For the structure of the web app.
-- **CSS3**: For styling the user interface.
-- **JavaScript**: For handling user interactions, resizing logic, and file processing.
+- **HTML5**: For the structure of the webpage.
+- **CSS3**: For styling the webpage, including responsive design and visual cues for drag-and-drop functionality.
+- **JavaScript (ES6)**: For handling user interactions, resizing images, and providing real-time feedback.
+- **Canvas API**: For resizing images dynamically in the browser.
 
 ---
 
@@ -68,9 +58,9 @@ This project is a web-based **Image Resizer Tool** that allows users to upload a
 2. The tool currently supports only common image formats such as .jpg, .jpeg, and .png.
 
 ## Future Enhancements
-1. Add support for additional image formats (e.g., .webp, .gif).
-2. Provide more advanced resizing options, such as cropping or custom dimensions.
-3. Improve the user interface with modern design elements.
+- Add support for bulk image uploads and resizing.
+- Provide additional options for image quality and resolution.
+- Implement a progress bar for large image processing tasks.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project:
