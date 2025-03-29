@@ -1,10 +1,11 @@
 {
-  "name": "my-website",
+  "name": "image-resizer-tool",
   "version": "1.0.0",
-  "description": "A simple website project to learn about web development.",
+  "description": "A simple website project to resize image files.",
   "main": "src/index.html",
   "scripts": {
-    "start": "live-server src"
+    "start": "live-server src",
+    "cypress:open": "cypress open"
   },
   "keywords": [
     "website",
@@ -12,10 +13,10 @@
     "css",
     "javascript"
   ],
-  "author": "Your Name",
+  "author": "primext",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "cypress": "^14.2.1",
+    "live-server": "^1.2.0"
   }
 }
