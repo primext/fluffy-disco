@@ -46,23 +46,30 @@ This project is a web-based **Image Resizer Tool** that allows users to upload a
 1. Clone the repository:
    ```bash
    git clone https://github.com/primext/fluffy-disco.git
-   
+
 2. Navigate to the project directory:
    ```bash
    cd fluffy-disco
 
-3. Open the index.html file in your browser to launch the app.
+3. Install the required dependencies:
+   ```bash
+   npm install
 
-## Known Limitations
+4. Start the live server:
+   ```bash
+   npm run start
+
+## **Known Limitations**
+
 1. The resized image may not meet the requested file size if the quality or aspect ratio limits are reached.
 2. The tool currently supports only common image formats such as .jpg, .jpeg, and .png.
 
-## Future Enhancements
-- Add support for bulk image uploads and resizing.
-- Provide additional options for image quality and resolution.
-- Implement a progress bar for large image processing tasks.
+## **Future Enhancements**
+1. Add support for bulk image uploads and resizing.
+2. Provide additional options for image quality and resolution.
+3. Implement a progress bar for large image processing tasks.
 
-## Contributing
+## **Contributing**
 Contributions are welcome! If you'd like to contribute to this project:
 
 1. Fork the repository.
@@ -78,8 +85,8 @@ Contributions are welcome! If you'd like to contribute to this project:
 4. Push to your branch:
    ```bash
    git push origin feature-name
-
+   
 5. Open a pull request.
 
-## License
+## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
