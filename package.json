@@ -1,7 +1,7 @@
 {
-  "name": "image-resizer-tool",
+  "name": "image-resizer",
   "version": "1.0.0",
-  "description": "A simple website project to resize image files.",
+  "description": "A simple web app project to resize image files.",
   "main": "src/index.html",
   "scripts": {
     "start": "live-server src",
