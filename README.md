@@ -1,6 +1,6 @@
 # Image Resizer Tool
 
-This project is a web-based **Image Resizer Tool** that allows users to upload an image, resize it to a desired file size, and download the resized image while maintaining the original file format. The tool provides real-time feedback on the resizing process directly on the webpage.
+This project is a web-based **Image Resizer Tool** that allows users to upload an image, resize it to a desired file size, and download the resized image while maintaining the original file format. The tool provides feedback on the resizing process directly on the webpage.
 
 ---
 
@@ -85,7 +85,7 @@ Contributions are welcome! If you'd like to contribute to this project:
 4. Push to your branch:
    ```bash
    git push origin feature-name
-   
+
 5. Open a pull request.
 
 ## **License**
