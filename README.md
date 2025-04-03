@@ -1,6 +1,6 @@
-# Image Resizer Tool
+# Image Resizer Web App
 
-This project is a web-based **Image Resizer Tool** that allows users to upload an image, resize it to a desired file size, and download the resized image while maintaining the original file format. The tool provides feedback on the resizing process directly on the webpage.
+This project is a web-based **Image Resizer Web App** that allows users to upload an image, resize it to a desired file size, and download the resized image while maintaining the original file format. The tool provides feedback on the resizing process directly on the webpage.
 
 ---
 
